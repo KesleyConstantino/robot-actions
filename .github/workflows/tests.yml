@@ -36,4 +36,4 @@ jobs:
       run: rfbrowser init
 
     - name: Run tests
-      run: robot tests/
+      run: robot -d ./logs -i smoke tests
